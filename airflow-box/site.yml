@@ -1,0 +1,4 @@
+- name: building airflow server
+  hosts: development
+  roles:
+    - airflow-role
